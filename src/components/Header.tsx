@@ -17,16 +17,16 @@ export default function Header({ onMenuClick }: HeaderProps) {
 
   return (
     <header className="sticky top-0 z-20 bg-white">
-      <div className="flex items-center justify-between px-4 sm:px-6 h-14">
-        <div className="flex items-center gap-3">
+      <div className="flex min-h-14 items-center justify-between gap-3 px-4 py-2 sm:px-6">
+        <div className="flex min-w-0 items-center gap-3">
           <button
             onClick={onMenuClick}
             aria-label="Open navigation menu"
-            className="text-neutral-600 hover:text-primary-700 transition-colors"
+            className="shrink-0 text-neutral-600 transition-colors hover:text-primary-700"
           >
             <Menu className="w-5 h-5" />
           </button>
-          <h1 className="text-base sm:text-lg lg:text-xl font-bold text-neutral-800 leading-tight">
+          <h1 className="min-w-0 text-lg font-bold leading-tight text-neutral-800 sm:text-xl lg:text-2xl">
             MushroomSense AI : Smart Growth Monitoring And Prediction
           </h1>
         </div>
