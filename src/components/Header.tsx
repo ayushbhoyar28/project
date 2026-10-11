@@ -26,7 +26,7 @@ export default function Header({ onMenuClick }: HeaderProps) {
           >
             <Menu className="w-5 h-5" />
           </button>
-          <h1 className="text-sm sm:text-base font-bold text-neutral-800 leading-none">
+          <h1 className="text-base sm:text-lg lg:text-xl font-bold text-neutral-800 leading-tight">
             MushroomSense AI : Smart Growth Monitoring And Prediction
           </h1>
         </div>
